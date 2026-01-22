@@ -1,0 +1,22 @@
+package Placement;
+
+import java.util.*;
+
+public class Condition {
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		int x=in.nextInt();
+		if(x>0) {
+			System.out.print("Positive");
+		}
+		else if(x<0) {
+			System.out.print("Negative");
+		}
+		else {
+			System.out.print("Zero");
+		}
+		in.close();
+	}
+}
+
+//Switch la direct ah case poiyurum, aana else if la ovoru case ah tha pogumm 
